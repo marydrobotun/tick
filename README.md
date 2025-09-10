@@ -1,4 +1,4 @@
-# tick
+# TICK
 
 Homework on TICK stack for monitoring course
 
@@ -15,5 +15,7 @@ Alert rules for server resources are displayed in the following table:
 | **Critical** | >90% for 1min or more | >95% for 1min or more | >95% | Read/Write > 95% | packet_loss>5%
 
 ## Dashboard
+
 Summary dashboard that shows server resources usage, MySQL server health and Nginx requests/responses info is displayed below:
 ![Dashboard](docs/dashboard.png)
+Dashboard configuration is [here](dashboard.json).
