@@ -1,6 +1,16 @@
 # TICK
 
 Homework on TICK stack for monitoring course
+## Stack
+
+- **WordPress**: PHP-FPM 8.2 with WordPress
+- **Database**: MySQL 8.0
+- **Web Server**: Nginx (latest)
+- **Monitoring**:
+  - Telegraf 1.28 (metric collection)
+  - Chronograf 1.10 (metric visualisation)
+  - Kapacitor 1.6 (alerting)
+  - InfluxDB 2.7 (metrics storage)
 
 ## Alerts
 
